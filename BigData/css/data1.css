@@ -1,0 +1,533 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{
+    box-sizing: border-box;
+}
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: "微软雅黑", Arial;
+    font-size: 12px;
+    background:#011b2c;
+    width: 1920px;
+}
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+/*header*/
+header{
+    height: 106px;
+    border-bottom: 1px solid #3987e0;
+}
+header >*{
+    float: left;
+}
+.hBorderLeft{
+    background: url(../img/border.png);
+    width: 133px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left:20px;
+    text-align: center;
+}
+header h3{
+    font-size: 24px;
+    color: #fff;
+    line-height: 46px;
+    font-weight: 400;
+}
+.hy{
+    background: url(../img/bordery.png);
+}
+.hy h3{
+    color: #ffeb00;
+}
+.hText{
+    background: url(../img/htext.png) no-repeat;
+    width: 824px;
+    height: 190px;
+    position: absolute;
+    left: 523px;
+}
+.hText h1{
+    font-size:38px ;
+    line-height:38px ;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 190px;
+    margin-top: 30px;
+}
+.hBorderRight{
+    float: right;
+    background: url(../img/border.png);
+    width: 133px;
+    height: 46px;
+    margin-top: 20px;
+    margin-right:20px;
+    text-align: center;
+}
+.left{
+    float: left;
+}
+/*TrafficStatistics*/
+.TrafficStatistics{
+    height:304px ;
+    width: 456px;
+    border:1px solid #3e85dd;
+    margin-left: 17px;
+    margin-top:17px ;
+}
+.tContent{
+    height:305px ;
+    width: 460px;
+    background: url(../img/TrafficStatistics.png);
+    margin-left: -3px;
+    margin-top: -3px;
+}
+.tTop{
+    height: 36px;
+    width: 203px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+.tTopt{
+    background: url(../img/ttop.png);
+    height: 1px;
+    width: 203px;
+}
+.tbody{
+    background: url(../img/tbody.png);
+    height: 30px;
+    width: 172px;
+}
+.tbody p{
+    font-size:20px ;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    opacity: .95;
+}
+.tbottom{
+    height: 174px;
+    width: 413px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.tbline{
+    height: 3px;
+    width: 413px;
+    background: url(../img/tbline.png);
+    margin-top: 10px;
+}
+.tnc{
+    height: 45px;
+}
+.tncs{
+    font-size: 20px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 35px;
+}
+.tnc img{
+    margin-top: -10px;
+}
+.tncp{
+    font-size:18px ;
+    line-height: 45px;
+    color: #00d9ff;
+    font-weight: 600;
+    margin-left: 96px;
+}
+.tc{
+    margin-top: 15px;
+}
+.tc .tncp{
+    color: #f0da60;
+    margin-left: 90px;
+}
+.tbc{
+    margin-top: 15px;
+}
+.tbc .tncp{
+    color: #76ff8d;
+    margin-left: 90px;
+}
+/*keyControl*/
+.keyControl{
+    height:300px ;
+    width: 455px;
+    border:1px solid #3e85dd;
+    margin-left: 17px;
+    margin-top:17px ;
+}
+.kContent{
+    height:305px ;
+    width: 460px;
+    background: url(../img/TrafficStatistics.png);
+    margin-left: -3px;
+    margin-top: -3px;
+}
+.percentage{
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.percentagec{
+    width: 400px;
+    height:38px ;
+    background: #03273d;
+}
+.pc{
+    margin-bottom: 3px;
+}
+.pc1{
+    font-size: 14px;
+    color: #fff;
+    line-height: 38px;
+    margin-left: 20px;
+    margin-right: 68px;
+}
+.pc2{
+    font-size: 14px;
+    color: #fff;
+    line-height: 38px;
+    margin-right: 5px;
+}
+.pc3{
+    font-size: 8px;
+    color: #1ab6dc;
+    line-height: 8px;
+}
+.pc4{
+    margin-right: 40px;
+}
+.pc5{
+    font-size: 14px;
+    color: #fff;
+    line-height: 38px;
+    margin-right:5px;
+}
+.pc6{
+    font-size: 8px;
+    color: #fe0000;
+    line-height: 8px;
+}
+.circle{
+    width: 400px;
+    height:133px ;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: url(../img/circle.png);
+}
+.leftTop{
+    height:30px;
+    width: 154px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 35px;
+}
+.l2{
+    color: #20d3fc;
+}
+.l3{
+    color: #d4051f;
+}
+.lefBottom{
+    margin-top: 43px;
+}
+.rightTop{
+    margin-top: -103px;
+    margin-left: 250px;
+}
+.rightBottom{
+    margin-top: 43px;
+    margin-left: 250px;
+}
+.ltext{
+    width: 68px;
+    height: 38px;
+    font-size: 16px ;
+    line-height: 16px;
+    color: #fff;
+    margin-left: 170px;
+    margin-top: -53px ;
+}
+/*ratioAnalysis*/
+.ratioAnalysis{
+    height:300px ;
+    width: 455px;
+    border:1px solid #3e85dd;
+    margin-left: 17px;
+    margin-top:17px ;
+    margin-bottom: 17px;
+}
+.rContent{
+    height:305px ;
+    width: 460px;
+    background: url(../img/TrafficStatistics.png);
+    margin-left: -3px;
+    margin-top: -3px;
+}
+.progress{
+    height:20px ;
+    width: 420px;
+    margin-top: 10px;
+}
+.progress span {
+    font-size:16px ;
+    color: #fff;
+    line-height: 20px;
+    margin-left: 24px;
+}
+.balls{
+    width:390px ;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.ball1{
+    background: url(../img/yuan1.png);
+    width:41px ;
+    height:41px ;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 166px;
+    margin-left:266px ;
+}
+.b11{
+    width: 50px;
+    font-size:18px ;
+    line-height:18px ;
+    color: #fff;
+    margin-left: 5px;
+}
+.b12{
+    font-size: 14px;
+    color: #02ddfd;
+}
+.ball2{
+    background: url(../img/yuan2.png);
+    width:54px ;
+    height: 54px;
+    text-align: center;
+    margin-top: -74px;
+    margin-left: 136px;
+    border-radius: 50%;
+}
+.ball{
+    background: url(../img/yuan3.png);
+    width:63px ;
+    height: 63px;
+    text-align: center;
+    border-radius: 50%;
+}
+.ball3{
+    margin-top: -150px;
+}
+.ball4{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.ball5{
+    margin-left: 292px;
+    margin-top: -182px;
+}
+.ball6{
+    margin-top: 40px;
+    margin-left:324px ;
+}
+.ball7,.ball8{
+    background: url(../img/yuan5.png);
+    width:114px ;
+    height: 114px;
+    text-align: center;
+    border-radius: 50%;
+}
+.ball7{
+    margin-top: -174px;
+    margin-left: 72px;
+}
+.ball7 .b11{
+    margin-left: 32px;
+}
+.ball7 .b12{
+    color: #fecb00;
+}
+.ball8 .b11{
+    margin-left: 32px;
+}
+.ball8 .b12{
+    color: #74fe87;
+}
+.ball8{
+    margin-top: -82px;
+    margin-left: 189px;
+}
+.center{
+    float: left;
+}
+/*monitoring*/
+.monitoring{
+    width: 940px;
+    height: 622px;
+    border: 1px solid #3f86de;
+    margin-top: 17px;
+    margin-left: 17px;
+    position: relative;
+}
+.mapBorder{
+    height: 8px;
+    width: 8px;
+    background:url(../img/mapborder.png);
+    position: absolute;
+}
+.m1{
+    left: -3px;
+    top: -3px;
+}
+.m2{
+    left: 935px;
+    top: -3px;
+}
+.m3{
+    left: -3px;
+    top: 615px;
+}
+.m4{
+    left: 935px;
+    top: 615px;
+}
+#map{
+    width: 934px;
+    height: 580px;
+    margin: 0 auto;
+}
+.BMap_cpyCtrl {
+    display: none;
+}
+.anchorBL{
+    display: none;
+}
+
+/* 地图下面 */
+.map-b{
+    width: 940px;
+    height: 298px;
+    border: 1px solid #3f86de;
+    margin-top: 20px;
+    margin-left: 0px;
+    position: relative;
+}
+.bg{
+    position: absolute;
+}
+.bg1{
+    top: 0;
+    left: 0;
+}
+.bg2{
+    top: 0;
+    right: 0;
+}
+.bg3{
+    bottom: 0;
+    left: 0;
+}
+.bg4{
+    bottom: 0;
+    right: 0;
+}
+
+.content{
+    display: flex;
+    
+}
+.content .progress{
+    margin-bottom: 10px;
+    background: url(../img/progress.png) no-repeat right center;
+}
+
+.two-charts{
+    width: 100%;
+    height: 213px;
+    display: flex;
+    justify-content: space-around;
+}
+.two-charts .charts-left{
+    width: 49%;
+    height: 213px;
+    background: #012440;
+}
+.two-charts .charts-right{
+    width: 49%;
+    height: 213px;
+    background: #012440;
+}
+.two-charts .charts-right{
+    display: block;
+}
+
+#two ul{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 58px;
+    justify-content: space-around;
+
+}
+#two ul li{
+    display: block;
+    width: 31%;
+    background: #083e7a;
+}
+#two ul li h2{
+    font-size: 16px;
+    color: #feffff;
+    text-align: center;
+    line-height: 30px;
+}
+#two ul li h3{
+    font-size: 16px;
+    color: #00dfff  ;
+    text-align: center;
+}
+
+
+
+
+
+/* 右边的 */
+
+.right{
+    float: left;
+}
+.right #container{
+    height: 240px;
+    margin-top: 0;
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+}
+.right #four{
+    width: 100%;
+    height: 260px;
+}
+.highcharts-credits{
+    display: none;
+}
+/*.highcharts-point{*/
+    /*display: none;*/
+/*}*/

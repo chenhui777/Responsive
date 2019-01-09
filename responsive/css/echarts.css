@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing: border-box; }
+
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+body {
+  font-family: "微软雅黑", Arial;
+  font-size: 12px;
+  background-color: #f7f7f7; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: none;
+  vertical-align: middle; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/某省物流云主页.jpg) no-repeat;
+  background-size: 100%; }
+
+h3 {
+  color: #e8f0f2;
+  font-size: 25px;
+  text-align: center;
+  line-height: 45px;
+  width: 100%; }
+
+h6 {
+  display: block;
+  color: #949ba0;
+  font-size: 8px;
+  text-align: center;
+  line-height: 10px;
+  padding-bottom: 13px;
+  width: 100%; }
+
+.row {
+  display: flex; }
+  .row .row-left {
+    margin-top: 20px;
+    width: 26%;
+    padding-left: 65px; }
+    .row .row-left h5 {
+      color: #d2f4ff;
+      font-size: 12px;
+      margin-top: 4px;
+      margin-bottom: 4px; }
+    .row .row-left p {
+      color: #39c2ff;
+      font-size: 15px;
+      margin-bottom: 47px; }
+      .row .row-left p b {
+        font-size: 32px; }
+      .row .row-left p span {
+        color: #ff8c5f;
+        font-size: 22px; }
+    .row .row-left h6 {
+      color: #f3f2f2;
+      font-size: 12px;
+      text-align: left; }
+    .row .row-left #one {
+      padding-left: 0;
+      width: 100%;
+      height: 222px; }
+    .row .row-left .echarts1 {
+      margin-bottom: 50px; }
+    .row .row-left .bottom {
+      margin-top: 20px; }
+      .row .row-left .bottom p {
+        font-size: 15px;
+        color: #e6e6e8;
+        line-height: 24px;
+        margin-bottom: 20px; }
+        .row .row-left .bottom p b {
+          font-size: 30px;
+          margin-top: 5px;
+          color: #ff885f;
+          font-weight: 100;
+          margin-left: 10px; }
+  .row .row-center {
+    width: 46%;
+    margin: 10px auto 0; }
+    .row .row-center .four {
+      width: 100%;
+      height: 500px; }
+      .row .row-center .four .BMap_cpyCtrl {
+        display: none; }
+      .row .row-center .four .anchorBL {
+        display: none; }
+    .row .row-center h4 {
+      font-size: 18px;
+      color: #fff;
+      line-height: 20px;
+      text-align: center; }
+    .row .row-center .five {
+      width: 100%;
+      height: 200px;
+      margin-top: -50px; }
+  .row .row-right {
+    width: 26%;
+    padding-right: 38px; }
+    .row .row-right ul {
+      display: flex;
+      width: 100%; }
+      .row .row-right ul li {
+        flex: 1;
+        font-size: 12px;
+        color: #acafb4;
+        line-height: 42px;
+        text-align: center; }
+        .row .row-right ul li b {
+          color: #00f9c2;
+          font-size: 14px; }
+    .row .row-right p {
+      text-align: right;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #ffffff;
+      padding-right: 40px; }
+    .row .row-right .huo {
+      display: block; }
+      .row .row-right .huo p {
+        font-size: 12px;
+        color: #d6dcde;
+        padding-right: 0;
+        text-align: center; }
+        .row .row-right .huo p em {
+          font-size: 24px;
+          font-style: inherit;
+          color: #ff885f; }
+        .row .row-right .huo p i {
+          color: #ff885f;
+          font-size: 24px;
+          font-style: inherit; }
+    .row .row-right .two {
+      width: 100%;
+      height: 240px; }
